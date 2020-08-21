@@ -13,8 +13,14 @@ app.get('/api/levels', (req, res) => {
 });
 
 app.get('/api/:levelid', (req, res) => {
-  res.json(oneOfFour.filter(level => level.levelId === parseInt(req.params.levelid)));
-});
+  const found = oneOfFour.some(level => level.levelId === parseInt(req.params.levelid));
+
+  if(found){
+    res.json(oneOfFour.filter(level => level.levelId === parseInt(req.params.levelid)));
+  } else {
+    res.status(400).json({msg: "Level not found"});
+  }
+  });
 
 // Listen to the App Engine-specified port, or 8080 otherwise
 const PORT = process.env.PORT || 8080;
