@@ -1,7 +1,10 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
 const oneOfFour = require('./assessment');
 const level = require('./levels');
+
+app.use(cors());
 
 app.get('/api/', (req, res) => {
   //res.json(level);
