@@ -4,20 +4,20 @@ const level = [
     "levelName" : "Receptive vocabulary"
   },
   {
-    "levelId": 2,
-    "levelName" : "Pseudoword matching"
-  },
-  {
-    "levelId" : 3,
+    "levelId" : 2,
     "levelName" : "Letter name"
   },
   {
-    "levelId": 4,
+    "levelId": 3,
     "levelName" : "Letter sound"
   },
   {
-    "levelId": 5,
+    "levelId": 4,
     "levelName" : "Sight words"
+  },
+  {
+    "levelId": 5,
+    "levelName" : "Pseudoword matching"
   }
 ];
 
