@@ -1212,7 +1212,7 @@ const oneOfFour = [
    "stimulus3Data": "j",
    "stimulus4": "letter_m_name",
    "stimulus4Data": "m",
-   "audiolink": "https://storage.googleapis.com/assessment-285012.appspot.com/sound_letter_a_sound.wav"
+   "audiolink": "https://storage.googleapis.com/assessment-285012.appspot.com/sound_letter_a_name.wav"
  },
  {
    "trialNumber": 1,
