@@ -6,7 +6,7 @@ const read = [
  },
  {
    "language": "fr-FR",
-   "trialWord": "Je suis norvégien ",
+   "trialWord": "Je suis norvégien-",
    "levelId": 2
  },
  {
