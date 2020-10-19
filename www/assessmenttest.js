@@ -3,7 +3,7 @@ const oneOfFour = [
    "trialNumber": 0,
    "levelId": 1,
    "trialSetNumber": 4,
-   "target": 1,
+   "target": 2,
    "stimulus1": "word_vocab_ball",
    "stimulus1Data": "https://storage.googleapis.com/assessment-285012.appspot.com/images/trialItems/sprite_word_vocab_ball.jpg",
    "stimulus2": "word_vocab_box",
