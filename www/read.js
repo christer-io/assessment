@@ -1,12 +1,12 @@
 const read = [
  {
-   "language": "en",
-   "trialWord": "sad cat",
+   "language": "fr-FR",
+   "trialWord": "J´habite à Hamar",
    "levelId": 2
  },
  {
-   "language": "en",
-   "trialWord": "fat cat",
+   "language": "fr-FR",
+   "trialWord": "Je suis norvégien ",
    "levelId": 2
  },
  {
