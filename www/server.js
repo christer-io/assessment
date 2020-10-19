@@ -54,7 +54,7 @@ app.get('/api/levels', (req, res) => {
   res.json(level);
 });
 
-app.get('/api/nb/:levelid', (req, res) => {
+app.get('/api/:levelid/nb', (req, res) => {
   const found = oneOfFourTest.some(level => level.levelId === parseInt(req.params.levelid));
 
   if(found){
