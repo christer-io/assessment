@@ -1,27 +1,27 @@
 const read = [
  {
    "language": "fr-FR",
-   "trialWord": "J´habite à Hamar",
+   "trialWord": "J´habite à Paris",
    "levelId": 2
  },
  {
    "language": "fr-FR",
-   "trialWord": "Je suis norvégien-",
+   "trialWord": "Je suis norvégien",
    "levelId": 2
  },
  {
-   "language": "en",
+   "language": "fr-FR",
    "trialWord": "cat wags",
    "levelId": 2
  },
  {
-   "language": "en",
-   "trialWord": "fish bit",
+   "language": "fr-FR",
+   "trialWord": "Je parle norvégien",
    "levelId": 2
  },
  {
-   "language": "en",
-   "trialWord": "fish swims",
+   "language": "fr-FR",
+   "trialWord": "Je parle Anglais",
    "levelId": 2
  },
  {
